@@ -243,7 +243,12 @@ var routes = Routes{
 		"/charging-record",
 		GetChargingRecord,
 	},
-
+	{
+		"UE Usage",
+		http.MethodGet,
+		"/ue-usage",
+		GetUEUsage,
+	},
 	{
 		"Charging Data",
 		http.MethodGet,
